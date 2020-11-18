@@ -1,0 +1,23 @@
+.app-component-result {
+    .app-result-success-box {
+        padding-top: 68px;
+        display: flex; flex-direction: column; justify-content: center; align-items: center;
+        .icon-success {width: 48px; height: 97px;}
+        .success-description {font-size: 17px; font-weight: 400; color: #333333;}
+    }
+    .app-result-none {
+        display: flex; flex-direction: column; justify-content: center; align-items: center;
+        .icon-fail {width: 48px; height: 97px;}
+        .none-title {font-size: 17px; font-weight: 400; color: #333333; margin-bottom: 20px;}
+        .margin-top {margin-top: 20px;}
+        .none-hot-products {
+            margin-top: 100px;
+            font-size: 13px; font-weight: 400; color: #333333;
+        }
+        .none-description-box {
+            display: flex; align-items: center; justify-content: center;
+            .icon-dots {width: 11px; height: 11px; margin-right: 4px;}
+            .none-description {font-size: 13px; font-weight: 400; color: #333333;}
+        }
+    }
+}

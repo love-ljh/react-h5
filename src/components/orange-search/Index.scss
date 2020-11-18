@@ -1,0 +1,21 @@
+.orange-search {
+    width: 100%;
+    display: flex; justify-content: center; align-items: center;
+    border:1px solid rgba(183,183,183,1); border-radius:5px;
+    .orange-search-left {
+        flex: 1; display: flex; height: 28px; justify-content: flex-end;
+        border-radius: 5px 0 0 5px;
+        .orange-search-input {
+            outline-style: none; border: 0; width: calc(100% - 34px);
+            font-size: 10px; font-weight: 400; color: #333333;
+        }
+        .orange-search-input::placeholder { font-size: 10px; font-weight: 400; color: #333333; }
+    }
+    .orange-search-right {
+        width: 42px; display: flex; justify-content: center; align-items: center; height: 28px;
+        border-radius: 0 5px 5px 0; background: #00B45B;
+        .orange-search-icon {
+            width: 25px; height: 25px;
+        }
+    }
+}

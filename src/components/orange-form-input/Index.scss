@@ -1,0 +1,14 @@
+.orange-form-input {
+    display: flex; justify-content: flex-start; align-items: center; padding: 12px 0; border-bottom: 1px solid #c4c4c4;
+    .lable {width: 80px; font-size: 15px; font-weight: bold; color: #666666; line-height: 15px;}
+    .right-box {
+        flex: 1; display: flex; justify-content: flex-end; align-items: center;
+        .input {
+            flex: 1; text-align: right; outline-style: none; border: 0;
+            font-size: 13px; font-weight: bold; color: #666666; line-height: 15px;
+        }
+        .input::placeholder {font-size: 13px; font-weight: 400; color: #999999;}
+        .icon {width: 8px; height: 14px; margin-left: 5px;}
+    }
+}
+.orange-form-input:last-child {border: 0;}

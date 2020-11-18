@@ -1,0 +1,189 @@
+.app-px {
+    display: flex;
+    // justify-content: center;
+    font-family:Microsoft YaHei;
+    margin-left: 43px;
+    height: auto;
+    margin-top: 45.06px;
+    .app-px-content{
+        margin-bottom: 31px;
+        width: 899.2px;
+        // height: 300px;
+        // background: green;
+        .productComparison{
+            // 产品对比
+            margin: 0;
+            padding: 0;
+            width: 76.8px;
+            font-size:19px;
+            height: 19.3px;
+            line-height: 19.3px;
+            font-weight:bold;
+        }
+        .selectproductComparison{
+            font-size: 10px;
+            height: 31px;
+            line-height:31px;
+        }
+        .content{
+            margin-top: 20.8px;
+            //  height: 1920px;
+             border-top:2px solid #C4C4C4;
+             border-bottom:2px solid #C4C4C4;
+             background: #f5f5f5;
+             // 添加产品
+             .addproduct{
+                 position: absolute;
+                 right: 41px;
+                 top:155px;
+                 >img{
+                    width: 42px;
+                    height: 129px;
+                 }
+             }
+             //产品列表
+             .information{
+                 height: 211px;
+                 display: flex;
+                 width: 899.2px;
+                 justify-content: center;
+                 border-bottom:2px solid #C4C4C4;
+                 & >div:first-child{
+                     display: flex;
+                     justify-content: center;
+                     align-items: center;
+                    //  min-width: 140px;
+                     font-size: 17px;
+                     font-family:Microsoft YaHei;
+                     font-weight: 400;
+                 }
+                 & >div:last-child{
+                    border-right: 0;
+                }
+                 >div{
+                     width: 180px;
+                    //  display: flex;
+                    border-right: 1px solid #C4C4C4;
+                    .productimg{
+                        font-family:Microsoft YaHei;
+                        position: relative;
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        align-items: center;
+                     .image{
+                         margin-top: 24px;
+                         width: 118px;
+                         height: 118px;
+                     }
+                     .noproduct{
+                     font-size: 10px;
+                     color: #999999;
+                     position: absolute;
+                     top:115.73px
+                     }
+                     .selectproduct{
+                         height: 23px;
+                         width: 126px;
+                         background: #00B45B;
+                         font-size: 14px;
+                         text-align: center;
+                         color: white;
+                         font-weight:400;
+                         margin-top: 24px;
+                         cursor: pointer;
+                     }
+                    }
+                 }
+             }
+             // 马上申请按钮
+             .ApplyNow{
+                  display: flex;
+                  align-items: center;
+             }
+             .ApplyNow>Button:first-child {
+                 margin-left: 185px;
+             }
+             .ApplyNow>Button{
+                 display: block;
+                 width: 157px;
+                 height: 32px;
+   
+             }
+
+             // 产品列表
+             .productlist{
+                 margin-top: 5px;
+                 border-bottom:2px solid #C4C4C4;
+              .title{
+                  height: 41px;
+                  line-height: 41px;
+                  color: white;
+                  font-size: 17px;
+                  font-weight: bold;
+                  background: #767676;
+                  padding-left: 39px;
+              }
+              .informationrow{
+                  min-height: 33px;
+                  display: flex;
+                  & > div:first-child{
+                      font-size: 13px;
+                      color: #666666;
+                  }
+                  >div{
+                    min-height: 33px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    font-size: 13px;
+                      width: 157.8px;
+                      border-right: 1px solid #C4C4C4;
+                      border-bottom: 1px solid #C4C4C4;
+                      flex: 1;
+                  }
+              }
+              // 加每个表格的特殊样式
+              .ohtertitle{
+                //   background: red;
+                height: 100px;
+              }
+              .fontcolor{
+                   color: #00B45B;
+                   font-size:13px;
+                   font-weight: bold;
+              }
+              .productimg{
+                   display: flex;
+                   flex-direction: column;
+              }
+              .productimg>span{
+                font-size:9px;
+                color: #666666;
+              }
+              .productimg > img{
+                   width: 151px;
+              }
+              .productlabeling {
+                   display: flex;
+              }
+              .productlabeling > span{
+                display: block;
+                justify-content: center;
+                align-items: flex-start;
+                font-size:9px;
+                width:41px;
+                height:12px;
+                background-color: #00B45B;   
+                border-radius:2px;
+                margin-left: 5px;
+                color: white;
+              }
+             }
+             .productlist:last-child{
+                 border-bottom: 0;
+             }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.app-component-product {
+    display: flex; padding: 15px 85px 15px 15px; background: white;
+    justify-content: space-between; align-items: center; position: relative;
+    .logo {width: 90px; height: 90px;}
+    .content {
+        flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; margin-left: 14px;
+        .box-1, .box-2, .box-3, .box-4 { display: flex; justify-content: flex-start; align-items: center; }
+        .box-1 {
+            margin-bottom: 7px;
+            .product-name {font-size: 15px; font-weight: bold; color: #333333; margin-right: 9px;}
+            .product-tag {font-size: 10px; font-weight: 300; color: #f5f5f5; padding: 4px 5px;
+                background:rgba(0,180,91,1);border-radius:8px 7px 7px 8px;}
+        }
+        .box-2 {
+            .tag {
+                background:rgba(118,118,118,1); border-radius:2px; font-size: 10px; font-weight: 300; color: #ffffff; padding: 4px 5px; margin-right: 6px;
+            }
+        }
+        .box-3 {
+            margin: 7px 0;
+            .text { font-size: 9px; font-weight: 300; color: #666666; }
+        }
+        .box-4 {
+            .item {
+                width: 100px;
+                .label {font-size: 10px; font-weight: 400; color: #333333; margin-right: 5px;}
+                .value {font-size: 10px; font-weight: bold; color: #D6000F;}
+            }
+        }
+    }
+    .btn {
+        width: 157px;
+    }
+    .border-bottom {
+        position: absolute; width: calc(100% - 15px); height: 1px; background: #c4c4c4; left: 15px; bottom: 0;
+    }
+}
+.app-component-product:last-child {
+    .border-bottom {
+        height: 0;
+    }
+}

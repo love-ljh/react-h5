@@ -1,0 +1,56 @@
+.app-graphql {
+    padding: 50px 100px;
+    .title {
+        font-size: 30px; font-weight: bold; color: #333333;
+    }
+    .test {
+        font-size: 13px; font-weight: 400; color: #999999;
+    }
+    .body {
+        display: flex; width: 100%; height: 580px; margin-top: 20px;
+        .body-left {
+            width: 200px; overflow: auto; border-right: 2px solid rebeccapurple;
+            .loading { font-size: 25px; font-weight: bold; color: #333333; }
+            .error { font-size: 25px; font-weight: bold; color: red; }
+            .ol-list {
+                li {font-size: 13px; font-weight: 400; color: #999999; line-height: 30px;}
+            }
+        }
+        .body-right {
+            flex: 1; overflow: auto;
+            .loading { font-size: 25px; font-weight: bold; color: #333333; }
+            .error { font-size: 25px; font-weight: bold; color: red; }
+            .LaunchProfile {
+                height: 100vh;
+                max-height: 100%;
+                width: calc(100vw - 300px);
+                overflow: hidden auto;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .LaunchProfile__status {
+                margin-top: 40px;
+            }
+            .LaunchProfile__title {
+                margin-top: 0;
+                margin-bottom: 4px;
+            }
+            .LaunchProfile__success {
+                color: #2cb84b;
+            }
+            .LaunchProfile__failed {
+                color: #ff695e;
+            }
+            .LaunchProfile__image-list {
+                display: grid;
+                grid-gap: 20px;
+                grid-template-columns: repeat(2, 1fr);
+                margin-top: 40px;
+                padding-bottom: 100px;
+            }
+            .LaunchProfile__image {
+                width: 100%;
+            }
+        }
+    }
+}

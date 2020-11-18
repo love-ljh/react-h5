@@ -1,0 +1,17 @@
+.orange-slider {
+    .title {
+        font-size: 15px; font-weight: bold; color: #333333;
+        .value {
+            margin: 0 13px; display: inline-block; border-bottom: 1px solid rgba(0, 0, 0, .2); width: 31px; text-align: center;
+            color: #333333; font-size: 13px; font-weight: bold; vertical-align: text-bottom;
+        }
+    }
+    .orange-tags {
+        display: flex; padding: 10px 0; flex-wrap: wrap; width: 320px;
+        .custom-slider {
+            width: 320px;
+            .ant-slider-rail {background: #B7B7B7 !important;}
+            .ant-slider-handle {background: #00B45B !important;}
+        }
+    }
+}

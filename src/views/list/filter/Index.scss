@@ -1,0 +1,6 @@
+.component-inner-filter-type {
+    display: flex; align-items: center; height: 31px;
+    .label { font-size: 13px; font-weight: bold; color: #333333; margin-right: 2px; }
+    .tag {margin-right: 16px; font-size: 13px; font-weight: 400; color: #333333;}
+    .tag-active {font-weight: bold; color: #D6000F;}
+}

@@ -1,0 +1,46 @@
+.app-match {
+    min-height: 100%; display: flex; flex-direction: column;
+    .match-step-box {
+        padding: 41px 43px 0;
+        .title {font-size: 19px; font-weight: bold; color: #333333; margin-bottom: 9px;}
+        .down-box {
+            display: flex; justify-content: space-between; align-items: baseline;
+            .steps {
+                font-size: 28px; font-weight: 400; color: #333333; line-height: 20px;
+                .slash { margin: 0 5px; }
+            }
+            .description { flex: 1; font-size: 10px; font-weight: 400; color: #666666; margin-left: 5px;}
+            .right-description {
+                width: 200px; display: flex; justify-content: flex-end; align-items: center;
+                .text { font-size: 10px; font-weight: 400; color: #666666; margin-right: 5px;}
+                .dots { width:6px; height:6px; background:#00B45B; border-radius:50%; }
+            }
+        }
+    }
+    .slash-block { margin-top: 20px; width: 100%; height: 26px; background: #767676;}
+    .match-container {
+        padding: 0 20px;
+        height: 530px; overflow-y: auto; overflow-x: hidden;
+    }
+    .match-footer {
+        margin-top: 20px;
+        display: flex; justify-content: center; align-items: center;
+        button { margin: 0 17.5px; width: 157px;}
+    }
+
+    .match-none-lash-block { width: 100%; height: 54px;}
+
+    /// style
+    .custom-tabs-box {
+        flex: 1; display: flex;
+        .ant-tabs {
+            flex: 1;
+            .ant-tabs-content {
+                min-height: 100%;
+                .ant-tabs-tabpane {
+                    min-height: 100%;
+                }
+            }
+        }
+    }
+}

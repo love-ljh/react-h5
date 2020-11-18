@@ -1,0 +1,15 @@
+.orange-picker-money {
+    display: flex; width: 153px; justify-content: space-between; position: relative;
+    .orange-picker-number {
+        position: relative;
+        .value {
+            width: 33px; background: #767676; border-radius: 5px;
+            text-align: center; color: white; font-size: 17px; font-weight: 400; line-height: 30px;
+        }
+        ul {
+            margin: 0; padding: 0; width: 33px; height: 300px; position: fixed; top: 33px; left: 0; z-index: 10;
+            li {list-style: none; width: 33px; background: #767676; border-radius: 5px;
+                text-align: center; color: white; font-size: 17px; font-weight: 400; line-height: 30px; margin-bottom: 2px;}
+        }
+    }
+}

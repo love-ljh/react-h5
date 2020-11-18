@@ -1,0 +1,119 @@
+.app-detail {
+    padding: 44px 41px;
+    .detail-header {
+        padding: 27px 29px 31px 29px; background: #f5f5f5;
+        .product-info-up-box {
+            display: flex; padding-right: 100px; justify-content: space-between; align-items: center;
+            .logo {width: 119px; height: 119px; background:rgba(255,255,255,1); box-shadow:0px 2px 2px 0px rgba(0, 0, 0, 0.33);}
+            .content {
+                flex: 1; margin-left: 15px; flex-direction: column; justify-content: center; align-items: flex-start;
+                .box-1, .box-2, .box-3, .box-4 { display: flex; justify-content: flex-start; align-items: center; }
+                .box-1 {
+                    margin-bottom: 7px;
+                    .product-name {font-size: 15px; font-weight: bold; color: #333333; margin-right: 9px;}
+                    .product-tag {font-size: 10px; font-weight: 300; color: #f5f5f5; padding: 4px 5px;
+                        background:rgba(0,180,91,1);border-radius:8px 7px 7px 8px;}
+                }
+                .box-2 {
+                    .tag {
+                        background:rgba(118,118,118,1); border-radius:2px; font-size: 10px; font-weight: 300; color: #ffffff; padding: 4px 5px; margin-right: 6px;
+                    }
+                }
+                .box-3 {
+                    margin: 7px 0;
+                    .text { font-size: 9px; font-weight: 300; color: #666666; }
+                }
+                .box-4 {
+                    .icon1 {width: 36px; height: 36px; margin-right: 7px;}
+                    .icon2 {width: 36px; height: 36px;}
+                }
+            }
+            .btn { width: 206px; }
+        }
+        .product-info-down-box {
+            width: 100%; height: 41px; background: white; display: flex; justify-content: flex-start; align-items: center; margin-top: 17px;
+            .item {
+                width: 140px; overflow: hidden;
+                .label {font-size: 15px; font-weight: 400; color: #333333;}
+                .value {font-size: 15px; font-weight: bold; color: #D6000F;}
+            }
+        }
+    }
+    // detail notice block
+    .detail-notice-block {
+        width: 100%; height: 70px; position: relative; margin-top: 5px;
+        .backgroud {width: 100%; height: 45px; position: absolute; top: 12.5px; left: 0; background: #00B45B; z-index: 1;}
+        .content {
+            padding: 0 14px; width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 10;
+            display: flex; justify-content: space-between; align-items: center;
+            .block {
+                width: 220px; height: 100%; background: #f5f5f5; display: flex; flex-direction: column; justify-content: center; align-items: center;
+                .h1 { font-size: 14px; font-weight: bold; color: #333333; }
+                .h2 { font-size: 12px; font-weight: 400; color: #333333; }
+            }
+        }
+    }
+    // detail content
+    .detail-content {
+        display: flex; margin-top: 5px; justify-content: space-between;
+        .detail-content-left {
+            width: 540px;
+            .product-detail {
+                padding: 31.5px 27px; background: #f5f5f5;
+                .payment-methods {
+                    display: flex; justify-content: flex-start; align-items: center; margin-top: 40px; margin-bottom: 25px;
+                    .label {font-size: 13px; font-weight: bold; color: #333333; margin-right: 2px;}
+                    .value {font-size: 13px; font-weight: 400; color: #333333; margin-right: 7px;}
+                    .btn {width:43px; height:16px; background:rgba(0,180,91,1); font-size: 11px; font-weight: 400; color: white; text-align: center; line-height: 16px;}
+                }
+                .payment-methods-description {
+                    .title {font-size: 13px; font-weight: bold; color: #333333; margin-bottom: 17px;}
+                    .p {font-size: 13px; font-weight: 400; color: #666666; margin: 0; line-height: 18px;}
+                }
+                .advantages-and-disadvantages {
+                    .p {font-size: 13px; font-weight: 400; color: #666666; margin: 0; line-height: 18px;}
+                }
+                .divider-line {width: 100%; height: 1px; background: #c4c4c4; margin-top: 43px; margin-bottom: 39px;}
+                .time-limit {
+                    .title {font-size: 13px; font-weight: bold; color: #333333; margin-bottom: 18px;}
+                    .text {font-weight: 400;}
+                    .p {font-size: 13px; font-weight: 400; color: #666666; margin: 0; line-height: 18px;}
+                }
+            }
+            .apply-progress {
+                padding: 30px 27px 0 27px; margin: 5px 0; background: #f5f5f5;
+                .icon-box {
+                    padding: 26.5px 0;
+                    img {width: 100%;}
+                }
+            }
+            .apply-material {
+                padding: 32px 0 25px 29px; background: #f5f5f5;
+                .item {
+                    margin-top: 26px;
+                    .title {margin-bottom: 9px; font-size: 14px; font-weight: 400; color: #333333; line-height: 14px;}
+                    .text {font-size: 13px; font-weight: 400; color: #666666; line-height: 13px;}
+                }
+            }
+        }
+        .detail-content-right {
+            width: 398px; display: flex; flex-direction: column; justify-content: center; align-items: center;
+            .ad {
+                width: 398px; display: flex; flex-direction: column; justify-content: center; align-items: center;
+                .pic-1 {width: 398px; height: 134px; margin-bottom: 8px;}
+                .pic-2 {width: 398px; height: 134px; margin-bottom: 7px;}
+            }
+            .hot-products {
+                width: 398px; background: #f5f5f5; flex: 1; padding: 31px 0 0 33px;
+                .content-box {
+                    padding: 20px 0 13px;
+                }
+            }
+        }
+    }
+    // detail footer
+    .detail-footer {
+        height: 86px; display: flex; justify-content: center; align-items: center; background: #f5f5f5; margin-top: 5px;
+        .btn { width: 157px; }
+    }
+}

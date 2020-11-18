@@ -1,0 +1,30 @@
+@mixin ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@mixin ellipsis2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/**
+    multiple map adaptation at mobile end
+    min 2
+*/
+@mixin background-image($url) {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url($url + "@2x.png");
+    @media screen and (-webkit-min-device-pixel-ratio: 3), screen and (min--moz-device-pixel-ratio: 3) {
+        background-image: url($url + "@3x.png");
+    }
+}
+
+@mixin common-background {
+    background-position-y: -100px;
+    @include background-image('../images/pic_diqiubeijing');
+}

@@ -1,0 +1,9 @@
+.app-component-base-info {
+    padding: 20px;
+    .loan-money {
+        display: flex; align-items: flex-end; margin-bottom: 30px;
+        .title {font-size: 17px; font-weight: bold; color: #333333; margin-right: 35px;}
+        .unit {font-size: 17px; font-weight: 400; color: #333333; margin-left: 28px;}
+        .descript {font-size: 13px; font-weight: 400; color: #333333;}
+    }
+}
